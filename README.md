@@ -44,9 +44,11 @@ But in fact, We still need to determine the position of MSAs according to differ
 
 1. In this article, the authors said that the new hybrid network Alter-Net achieves good performance on both large and small datasets, but in fact, they only tested the performance of the alternet on the CIFAR-100 dataset, which is only a small dataset. Although they provide a theoretical explanation for this conclusion, I think this conclusion still lack the support of experimental data.
 
-2. In this article, the author just tried this method of using msa instead of convolutional neural network in ResNet, but some of their conclusions are based on all CNNs, so I think they may need more follow-up research.
+2. In this article, the author just tried this method of using MSAs instead of convolutional neural network in ResNet, but some of their conclusions are based on all CNNs, so I think they may need more follow-up research.
 
 ## Resource Links
+
+Namuk Park, Songkuk Kim. How do vision transformer work. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2022.
 
 Aravind Srinivas, Tsung-Yi Lin, Niki Parmar, Jonathon Shlens, Pieter Abbeel, and Ashish Vaswani. Bottleneck transformers for visual recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2021.
 
