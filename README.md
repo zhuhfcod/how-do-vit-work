@@ -8,7 +8,7 @@
 4.	On the other hand, Vision Transformer suffer from non-convex losses. Large datasets and loss landscape smoothing methods alleviate this problem.
 5.	Convs exhibit opposite behaviors. For example, MSAs are low-pass filters, but Convs are high-pass filters. Therefore, MSAs and Convs are complementary.
 6.	Multi-stage neural networks behave like a series connection of small individual models. In addition, MSAs at the end of a stage play a key role in prediction. Based on these insights, they propose AlterNet, a model in which Conv blocks at the end of a stage are replaced with MSA blocks.
-7.	The new hybrid model that takes the best of Vision Transformation and Convolutional networks and demonstrates good empirical performance not only in large data regimes but also in small data regimes.
+7.	The new hybrid model that takes the best of Vision Transformation and Convolutional networks and demonstrates good empirical performance not only in large data datasets but also in small data datasets.
 
 ### Model Structure
 
@@ -65,5 +65,5 @@ Code reference repo: https://github.com/xxxnell/how-do-vits-work
 
 ## Video recording
 
-Video link: https://www.youtube.com/watch?v=dOwRXpSSc8E
+Video link: https://github.com/zhuhfcod/how-do-vit-work/tree/main/video_recording
 
