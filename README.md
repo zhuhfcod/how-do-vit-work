@@ -2,8 +2,8 @@
 
 ## Overview
 
-1.	MSAs (multi-headed self-attention) have been successful in computer vision, and this paper analyzes how visual translators (and convolutional architectures in contrast) work from an optimization standpoint.
-2.	Paper presents an empirical analysis of Vision Transformers in particular multi-headed self-attention and Convolutional networks with a focus on optimization-related properties.
+1.	MSAs (multi-head self-attention) have been successful in computer vision, and this paper analyzes how visual translators (and convolutional architectures in contrast) work from an optimization standpoint.
+2.	Paper presents an empirical analysis of Vision Transformers in particular multi-head self-attention and Convolutional networks with a focus on optimization-related properties.
 3.	MSAs improve not only accuracy but also generalization by flattening the loss landscapes. Such improvement is primarily attributable to their data specificity, not long-range dependency.
 4.	On the other hand, Vision Transformer suffer from non-convex losses. Large datasets and loss landscape smoothing methods alleviate this problem.
 5.	Convs exhibit opposite behaviors. For example, MSAs are low-pass filters, but Convs are high-pass filters. Therefore, MSAs and Convs are complementary.
