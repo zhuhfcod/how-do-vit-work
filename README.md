@@ -38,7 +38,7 @@ The authors propose that they use MSAs at the end of each stage. How do we deter
 ![image](https://user-images.githubusercontent.com/69946337/161379249-d9456d89-2864-4b8b-90fd-389812479aca.png)
 
 Usually MSA just complements Conv (not replaces Conv), and MSA closer to the end of a stage improves predictive performance based on experimental findings. 
-But in fact, We still need to determine the position of MSAs according to different neural network models For example, in the Resnet, adding MSAs harm the accuracy in the c3 stage, so we still need to perform fine-tuning.
+But in fact, We still need to determine the position of MSAs according to different neural network models. For example, in the Resnet, adding MSAs harm the accuracy in the c1 stage, so we still need to perform fine-tuning.
 
 ## Critical Thinking 
 
